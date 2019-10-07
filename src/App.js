@@ -36,7 +36,7 @@ function App() {
           <button className="homeButtons__touchdown" onClick={() => setHCount(homeCount + 2)}>Good Safety</button>
         </div>
         <div>
-        <button className="homeButtons__touchdown" onClick={() => {setHCount(0); setACount(0);}}>Reset</button>
+        <button className="homeButtons__touchdown" onClick={() => {setHCount(0); setACount(0);}}>Reset Scores</button>
         </div>
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick={() => setACount(awayCount + 6)}>Bad Touchdown</button>
