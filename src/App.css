@@ -117,6 +117,8 @@
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
-  margin: 1rem;
+  margin: 1rem 3rem ;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
 }
